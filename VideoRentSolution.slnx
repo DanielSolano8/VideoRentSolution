@@ -1,4 +1,6 @@
 <Solution>
+  <Project Path="VideoRent.Business/VideoRent.Business.csproj" />
+  <Project Path="VideoRent.Data/VideoRent.Data.csproj" />
   <Project Path="VideoRent.Domain/VideoRent.Domain.csproj" />
   <Project Path="VideoRent.Test/VideoRent.Test.csproj" />
 </Solution>
