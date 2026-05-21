@@ -18,6 +18,16 @@ namespace VideoRent.Domain
             this.actores = new List<Actor>();
         }
 
+        public Pelicula(int peliculaId, string titulo, bool subtitulada, bool estreno, Genero genero, List<Actor> actores)
+        {
+            this.peliculaId = peliculaId;
+            this.titulo = titulo;
+            this.subtitulada = subtitulada;
+            this.estreno = estreno;
+            this.genero = genero;
+            this.actores = actores;
+        }
+
         public int PeliculaId { get => peliculaId; set => peliculaId = value; }
         public string Titulo { get => titulo; set => titulo = value; }
         public bool Subtitulada { get => subtitulada; set => subtitulada = value; }
