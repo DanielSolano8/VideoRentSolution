@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace VideoRent.Domain
+{
+    public class Pelicula
+    {
+        private int peliculaId;
+        private String titulo;
+        private bool subtitulada;
+        private bool estreno;
+        private Genero genero;
+        private List<Actor> actores;
+        public Pelicula()
+        {
+            this.genero = new Genero();
+            this.actores = new List<Actor>();
+        }
+
+        public int PeliculaId { get => peliculaId; set => peliculaId = value; }
+        public string Titulo { get => titulo; set => titulo = value; }
+        public bool Subtitulada { get => subtitulada; set => subtitulada = value; }
+        public bool Estreno { get => estreno; set => estreno = value; }
+        public Genero Genero { get => genero; set => genero = value; }
+        public List<Actor> Actores { get => actores; set => actores = value; }
+    }
+}
