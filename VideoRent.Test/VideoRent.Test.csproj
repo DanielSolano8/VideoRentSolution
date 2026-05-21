@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\VideoRent.Data\VideoRent.Data.csproj" />
     <ProjectReference Include="..\VideoRent.Domain\VideoRent.Domain.csproj" />
   </ItemGroup>
 
