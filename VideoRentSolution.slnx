@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="VideoRent.API/VideoRent.API.csproj" Id="dc44ea78-a11c-4ee6-b4f7-4f1e58f7d2b7" />
   <Project Path="VideoRent.Business/VideoRent.Business.csproj" />
   <Project Path="VideoRent.Data/VideoRent.Data.csproj" />
   <Project Path="VideoRent.Domain/VideoRent.Domain.csproj" />
