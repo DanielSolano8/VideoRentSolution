@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="VideoRent.API/VideoRent.API.csproj" Id="2997ed01-17f7-4dda-a0a6-cb676622667b" />
+  <Project Path="VideoRent.Business/VideoRent.Business.csproj" Id="41da3a51-01a2-4932-b087-c306febfe467" />
+  <Project Path="VideoRent.Data.UnitTests/VideoRent.Data.UnitTests.csproj" Id="907e9f1f-b6cb-4260-8bdd-75de1bc498f5" />
+  <Project Path="VideoRent.Data/VideoRent.Data.csproj" Id="bd810bc8-6595-4c1d-ab67-a2728d09fc8e" />
   <Project Path="VideoRent.Domain/VideoRent.Domain.csproj" />
   <Project Path="VideoRent.Test/VideoRent.Test.csproj" />
 </Solution>

@@ -12,12 +12,6 @@ namespace VideoRent.Domain
         private bool estreno;
         private Genero genero;
         private List<Actor> actores;
-        public Pelicula()
-        {
-            this.genero = new Genero();
-            this.actores = new List<Actor>();
-        }
-
         public Pelicula(int peliculaId, string titulo, bool subtitulada, bool estreno, Genero genero, List<Actor> actores)
         {
             this.peliculaId = peliculaId;
@@ -26,6 +20,11 @@ namespace VideoRent.Domain
             this.estreno = estreno;
             this.genero = genero;
             this.actores = actores;
+        }
+        public Pelicula()
+        {
+            this.genero = new Genero();
+            this.actores = new List<Actor>();
         }
 
         public int PeliculaId { get => peliculaId; set => peliculaId = value; }
