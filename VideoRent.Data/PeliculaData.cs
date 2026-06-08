@@ -52,9 +52,7 @@ namespace VideoRent.Data
 
                 cmdPelicula.Parameters.Add(new SqlParameter("@estreno", pelicula.Estreno));
 
-                cmdPelicula.Parameters.Add(new SqlParameter("@generoId", pelicula.Genero.GeneroId));
-
-                // SEGUNDO COMMAND
+                cmdPelicula.Parameters.Add(new SqlParameter("@generoId", pelicula.Genero.GeneroId));                // SEGUNDO COMMAND
 
                 SqlCommand cmdPeliculaActor = connection.CreateCommand();
 

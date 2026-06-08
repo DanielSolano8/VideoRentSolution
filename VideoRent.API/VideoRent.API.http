@@ -4,3 +4,32 @@ GET {{VideoRent.API_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST {{VideoRent.API_HostAddress}}/api/peliculas
+Content-Type: application/json
+Accept: application/json
+
+{
+  "peliculaId": 0,
+  "titulo": "The Matrix",
+  "subtitulada": true,
+  "estreno": false,
+  "genero": {
+    "generoId": 1,
+    "nombreGenero": "Action"
+  },
+  "actores": [
+    {
+      "actorId": 1,
+      "nombreActor": "Keanu",
+      "apellidosActor": "Reeves"
+    },
+    {
+      "actorId": 2,
+      "nombreActor": "Laurence",
+      "apellidosActor": "Fishburne"
+    }
+  ]
+}
+
+###
